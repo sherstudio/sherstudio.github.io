@@ -391,7 +391,7 @@
 
   // macOS-dock magnify on tools
   const mq=document.querySelector('.marquee');
-  const SPREAD=110,AMP=.8;
+  const SPREAD=105,AMP=.62;
   mq.addEventListener('mousemove',e=>{
     mq.classList.remove('leaving');
     for(const el of tr.querySelectorAll('.tool')){const r=el.getBoundingClientRect();const cx=r.left+r.width/2;
